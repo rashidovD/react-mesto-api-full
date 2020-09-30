@@ -12,7 +12,6 @@ const userRouter = express.Router();
 
 userRouter.get('/', getAllUsers);
 userRouter.get('/:_id', validateID, getUser);
-// userRouter.post('/', createUser);
 userRouter.patch('/me', validateUserUpdate, updateUser);
 userRouter.patch('/me/avatar', validateAvatar, updateAvatar);
 
