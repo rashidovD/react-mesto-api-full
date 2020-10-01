@@ -3,3 +3,4 @@
 * есть авторизация и роуты для запросов
 * Адрес публичного IP 178.154.224.104
 * Домен: http://niktonezanyal.students.nomoreparties.co/
+* Работает с http и https
